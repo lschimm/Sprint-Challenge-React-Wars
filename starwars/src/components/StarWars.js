@@ -1,6 +1,5 @@
 import React from 'react';
-
-import '../App.css'
+import './StarWars.css';
 
 const StarWars = props => {
     return(

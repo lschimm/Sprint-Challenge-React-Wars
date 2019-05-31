@@ -1,6 +1,6 @@
 import React from 'react';
 import StarWars from './StarWars';
-import '../App.css'
+import './StarWarsLists.css'
 
 
 const StarWarsList = props => {
@@ -9,8 +9,8 @@ const StarWarsList = props => {
             {props.wars.map(war => (
                 <div>
                     <StarWars 
-                    wars= {war}
-                    key= {war.created}
+                        wars= {war}
+                        key= {war.created}
                      />
                 </div>
             ))}
