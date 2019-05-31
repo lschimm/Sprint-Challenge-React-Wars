@@ -1,0 +1,11 @@
+.star-wars {
+  border-bottom: 5px inset rgb(156, 156, 156);
+}
+
+.name {
+  color: rgb(83, 83, 83);
+  font-style: oblique;
+  font-weight: bold; 
+  font-size: 1.2em;
+ }
+ 

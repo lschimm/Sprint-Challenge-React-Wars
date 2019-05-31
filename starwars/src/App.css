@@ -4,5 +4,17 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 4em;
+  font-family: fantasy;
 }
 /* write your parent styles in here for your App.js */
+
+
+body {
+  display: flex;
+  justify-content: center;
+  line-height: 28px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-align: center;
+  text-transform: capitalize;
+}
