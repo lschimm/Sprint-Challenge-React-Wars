@@ -7,7 +7,11 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
+
+      name: '',
+      height: '',
+      mass: '',
     };
   }
 
@@ -30,6 +34,7 @@ class App extends Component {
         throw new Error(err);
       });
   };
+  
 
   // infoClicked = swID => {
   //   this.setState ( prevState => {
@@ -45,10 +50,10 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div>
         <h1 className="Header">React Wars</h1>
-        <StarWarsList />
-          <StarWarsList />
+        <StarWarsList 
+        wars={this.state.starwarsChars} />
       </div>
     );
   }

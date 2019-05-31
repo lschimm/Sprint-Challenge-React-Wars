@@ -1,24 +1,30 @@
 import React, { Component } from 'react';
 import StarWars from './StarWars';
 
+// const StarWarsList = props => {
+//     return (
+//             <div className="starwars-list">
+//                 {props.swars.map(swar => (
+//                         <StarWars />
+//                 ))}
+//             </div>
+//     )
+// }
+
 const StarWarsList = props => {
     return (
-        <h2>start here</h2>
+        <div className="starwars-list">
+            {props.wars.map(war => (
+                <div>
+                    <StarWars 
+                    wars={war}
+                    />
+                </div>
+            ))}
+        </div>
     )
 }
 
-// class StarWarsList extends React.Component {
-//     constructor() {
-//         super();
-//         this.state = data,
-//     }
-
-//     render() {
-//         <div className="StarWars-List">
-//             <h2>starwars-list</h2>
-//         </div>
-//     }
-// }
 
 
 export default StarWarsList;

@@ -2,11 +2,10 @@ import React, { Component } from 'react';
 
 const StarWars = props => {
     return(
-        <div className="Star-Wars">
-            <h4>Insert info here</h4>
-            {/* <h2> onClick = {() => props.clickFunction (props.swObj.id)
-            }> 
-            {props.swObj.StarWars} </h2> */}
+        <div className="star-wars">
+            <p>{props.wars.name}</p> 
+            <p>{props.wars.height}</p> 
+            <p>{props.wars.mass}</p> 
         </div>
     )
 }
