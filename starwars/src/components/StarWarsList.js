@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import StarWars from './StarWars';
 import '../App.css'
 
@@ -9,8 +9,9 @@ const StarWarsList = props => {
             {props.wars.map(war => (
                 <div>
                     <StarWars 
-                    wars={war}
-                    />
+                    wars= {war}
+                    key= {war.created}
+                     />
                 </div>
             ))}
         </div>
