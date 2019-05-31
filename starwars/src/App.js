@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import StarWarsList from './components/StarWarsList';
+
 class App extends Component {
   constructor() {
     super();
@@ -29,10 +31,24 @@ class App extends Component {
       });
   };
 
+  // infoClicked = swID => {
+  //   this.setState ( prevState => {
+  //     const newArray = prevState.starwarsChars.map ( info => {
+  //       if (info.id === swID){
+  //         info.clicked = ~info.clicked;
+  //       }
+  //       return info;
+  //     })
+  //     return { starwarsChars: newArray}
+  //   })
+  // }
+
   render() {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        <StarWarsList />
+          <StarWarsList />
       </div>
     );
   }
