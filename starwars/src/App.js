@@ -52,7 +52,7 @@ class App extends Component {
           wars= {this.state.starwarsChars}
          />
       </div>
-    );
+    )
   }
 }
 
