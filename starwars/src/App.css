@@ -6,3 +6,27 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+
+body {
+  display: flex;
+  justify-content: center;
+  line-height: 25px;
+  font-family: Helvetica, Arial, Sans-Serif;
+  text-align: center;
+}
+
+.name {
+  color: rgb(83, 83, 83);
+ }
+ 
+.starwars-list {
+  width: 1000px;
+  border: 5px outset;
+  background: rgb(255, 255, 255);
+  border-radius: 25px;
+  color: rgb(29, 149, 204);
+  font-size: 3em;
+  font-family:  'Segoe UI', sans-serif
+}
+
